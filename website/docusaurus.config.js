@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ocular-d', // Usually your GitHub org/user name.
+  projectName: 'dr-bunsen', // Usually your repo name.
 
   presets: [
     [
@@ -46,7 +46,7 @@ const config = {
         title: 'Dr Bunsen',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/ocld-logo.png',
         },
         items: [
           {
@@ -62,6 +62,17 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      colorMode: {
+        // "light" | "dark"
+        defaultMode: 'light',
+        // Hides the switch in the navbar
+        // Useful if you want to support a single color mode
+        disableSwitch: true,
+      },
+      prism: {
+        theme: require('prism-react-renderer/themes/dracula'),
+        additionalLanguages: ['ini', 'graphql', 'git', 'docker', 'makefile'],
       },
       footer: {
         style: 'dark',
