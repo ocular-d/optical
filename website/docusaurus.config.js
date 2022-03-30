@@ -58,8 +58,9 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
@@ -72,6 +73,7 @@ const config = {
       },
       prism: {
         theme: require('prism-react-renderer/themes/dracula'),
+        //darkTheme: require('prism-react-renderer/themes/dracula'),
         additionalLanguages: ['ini', 'graphql', 'git', 'docker', 'makefile'],
       },
       footer: {

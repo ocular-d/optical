@@ -16,6 +16,8 @@
   --ifm-code-font-size: 95%;
 } */
 
+@import "github-header-icon.css";
+
 :root {
   --ifm-color-primary: #6275d7;
   --ifm-color-primary-dark: #495fd1;
@@ -31,6 +33,7 @@
   --ifm-code-font-size: 85%;
   --ifm-code-background: #F1F2F2;
   --ifm-font-color-base: #464b54;
+
 
   /*--ifm-*/
 } */
@@ -56,3 +59,35 @@
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* Menu drop-down (left) */
+.menu__list-item--collapsed .menu__link--sublist:after {
+  transform: rotate(
+90deg
+);
+}
+.menu__link--sublist:after {
+  background: none;
+  font-size: 1.25rem;
+  content: "+";
+  height: inherit;
+  width: inherit;
+  transform: rotate(
+45deg
+);
+  -webkit-filter: none;
+  filter: none;
+}
+
+/* Codeblock code-line highlight */
+/* .docusaurus-highlight-code-line {
+  background-color: #4e6e8e;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+} */
+
+/* .table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
+  color: #0047ff;
+  text-decoration: none;
+} */
