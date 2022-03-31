@@ -17,6 +17,7 @@
 } */
 
 @import "github-header-icon.css";
+@import "admonitions.css";
 
 :root {
   --ifm-color-primary: #6275d7;
@@ -32,8 +33,9 @@
   --ifm-footer-color: rgb(255, 255, 255);
   --ifm-code-font-size: 85%;
   --ifm-code-background: #F1F2F2;
-  --ifm-font-color-base: #464b54;
-
+  --ifm-color-info-dark: #495fd1;
+  --ifm-color-info-darker: #3d54cd;
+  --ifm-color-info-darkest: #2c42af;
 
   /*--ifm-*/
 } */
@@ -80,14 +82,22 @@
 }
 
 /* Codeblock code-line highlight */
-/* .docusaurus-highlight-code-line {
+.docusaurus-highlight-code-line {
   background-color: #4e6e8e;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-} */
+}
 
 /* .table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
   color: #0047ff;
   text-decoration: none;
+} */
+
+/* Blocks */
+/* alert--info {
+  --ifm-alert-background-color: var( --ifm-color-primary-dark );
+  --ifm-alert-background-color-highlight: rgba(236, 84, 236, 0.15);
+  --ifm-alert-foreground-color: var( --ifm-color-info-contrast-foreground );
+  --ifm-alert-border-color: var(--ifm-color-primary-darkest);
 } */
