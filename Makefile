@@ -17,4 +17,5 @@ help: ## This help message
 
 .PHONY: init
 init: ## Initialize project
-	@echo "Initialize project"
+	@echo "$(YELLOW)==> Initialize project$(RESET)"
+	@pre-commit install
