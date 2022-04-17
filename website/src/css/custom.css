@@ -18,6 +18,7 @@
 
 @import "github-header-icon.css";
 @import "admonitions.css";
+@import "boxes.css";
 
 :root {
   --ifm-color-primary: #6275d7;
