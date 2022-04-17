@@ -12,5 +12,5 @@ jobs:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
         #config-file: 'mlc_config.json'
-        folder-path: 'website'
+        folder-path: 'website/docs'
         #max-depth: 2
