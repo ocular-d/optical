@@ -90,6 +90,11 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.alert a {
+  color: #3d54cd;
+  text-decoration: none;
+}
+
 /* .table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
   color: #0047ff;
   text-decoration: none;

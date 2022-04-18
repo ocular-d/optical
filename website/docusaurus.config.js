@@ -65,6 +65,12 @@ const config = {
             position: 'left',
             label: 'Markdown Style Guide',
           },
+          {
+            type: 'doc',
+            docId: 'tools/tools-intro',
+            position: 'left',
+            label: 'Tools',
+          },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',

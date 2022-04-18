@@ -31,9 +31,9 @@ function Home() {
   return (
     <Layout
       // title={`${siteConfig.title}`}
-      description="API things"
+      description="Things"
       keywords={[
-        "onna",
+        "ocular-d",
       ]}
     >
       <header className={classnames("hero", styles.heroBanner)}>
@@ -51,7 +51,7 @@ function Home() {
                     "button button--outline button--primary button--lg",
                     styles.getStarted
                   )}
-                  to={useBaseUrl("overview")}
+                  to={useBaseUrl("main-intro")}
                 >
                   Get Started
                 </Link>

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Style guide
 description: An example style guide
 ---
@@ -71,8 +71,8 @@ It should not include assumptions or interpretations of the image or describe su
 - Make sure the description of the page's content is accurate to avoid [pogo sticking](https://www.nngroup.com/articles/pogo-sticking/ "Article about pogo sticking on NNGroup")
 - Avoid using "link" as most screen readers already add that word
 - [Avoid duplicate links](https://www.nngroup.com/articles/duplicate-links/ "Article about duplicate links on NNGroup") in the same article unless the links are very apart from each other.
-   - Unless it's a glossary file
-   - Unless it's email addresses (Although an article with duplicate email addresses could be rewritten!)
+  - Unless it's a glossary file
+  - Unless it's email addresses (Although an article with duplicate email addresses could be rewritten!)
 
 ### Style tips
 
@@ -181,7 +181,8 @@ Whenever possible, choose words that have one clear meaning.
 Omit unnecessary adverbs—words that describe how, when,or where.
 Unless they're important to the meaning of a statement, leave them out.
 
-**Examples**
+### Examples
+
 - Quite
 - Very
 - Quickly
