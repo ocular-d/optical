@@ -10,3 +10,5 @@ sidebar_position: 2
 - Why LT and not G
 - Textlint example and docs
 - Docs about alex, and other tools
+- Lefthook
+- VS Code snippets
