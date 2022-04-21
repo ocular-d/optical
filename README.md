@@ -1,4 +1,4 @@
-<h1 align="center">Dr. Bunsen Honeydew</h1>
+<h1 align="center">Doctor Bunsen Honeydew</h1>
 
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
