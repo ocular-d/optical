@@ -53,17 +53,25 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'style-guide',
+            type: 'dropdown',
+            label: 'Style Guides',
             position: 'left',
-            label: 'Editorial Style Guide',
-          },
-          {
-            //type: 'doc',
-            //docId: 'style-guide',
-            href: 'https://ocular-d.github.io/styleguide-markdown/',
-            position: 'left',
-            label: 'Markdown Style Guide',
+            items: [
+              {
+                label: 'Markdown',
+                href: 'https://ocular-d.github.io/styleguide-markdown/',
+              },
+              {
+                type: 'doc',
+                label: 'Editorial',
+                docId: 'style-guide',
+              },
+              {
+                label: 'OpenAPI',
+                href: 'https://openapi.ocular-d.tech/',
+              },
+              // ... more items
+            ],
           },
           {
             type: 'doc',

@@ -1,8 +1,16 @@
 ---
-sidebar_position: 5
-title: Pre Commit
-description: A framework for managing and maintaining multi-language pre-commit hooks
+sidebar_position: 4
+title: Pre-commit Hooks
+description: Pre-commit hooks
 ---
+
+A framework for managing and maintaining multi-language pre-commit hooks.
+
+---
+## lefhook
+
+Here info about lefthook
+## pre-commit
 
 A framework for managing and maintaining multi-language pre-commit hooks.
 
@@ -19,7 +27,7 @@ For detailed docs, please check the official pre-commit [documentation](https://
 
 :::
 
-## Installation
+### Installation
 
 Before you can run hooks, you need to have the pre-commit package manager installed.
 
@@ -35,7 +43,7 @@ Using Homebrew:
 brew install pre-commit
 ```
 
-## Configuration
+### Configuration
 
 <!-- vale off -->
 
@@ -82,7 +90,7 @@ repos:
       args: [--unique]
 ```
 
-## Install the git hook scripts
+### Install the git hook scripts
 
 Run `pre-commit install` to set up the git hook scripts.
 
@@ -92,3 +100,7 @@ pre-commit installed at .git/hooks/pre-commit
 ```
 
 Now pre-commit will run automatically on git commit!
+
+## Husky
+
+Here info about Husky
