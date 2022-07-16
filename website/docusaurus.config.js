@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Dr Bunsen',
+  title: 'Optical',
   tagline: '- Watch your language -',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'ocular-d', // Usually your GitHub org/user name.
-  projectName: 'dr-bunsen', // Usually your repo name.
+  projectName: 'optical', // Usually your repo name.
 
   presets: [
     [
@@ -46,7 +46,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Dr Bunsen',
+        title: 'Optical',
         logo: {
           alt: 'My Site Logo',
           src: 'img/ocld-logo.png',
