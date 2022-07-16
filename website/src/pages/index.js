@@ -1,26 +1,53 @@
-import React from "react";
-import classnames from "classnames";
-import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import styles from "./index.module.css";
+import React from 'react';
+import clsx from 'clsx';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import styles from './styles.module.css';
+//import styles from "./index.module.css";
+
+const features = [
+  {
+    title: <>Build web apps in your language</>,
+    imageUrl: 'img/home-languages.svg',
+    description: (
+      <>
+        Add rich interactive web UI to your backend apps, scripts, jobs written in <a href="/docs/tutorials/python">Python</a>, <a href="/docs/tutorials/bash">Bash</a>, <a href="/docs/tutorials/powershell">PowerShell</a> or <a href="/docs/tutorials/node">Node.js</a>.
+      </>
+    ),
+  },
+  {
+    title: <>No HTML/CSS/JavaScript required</>,
+    imageUrl: 'img/home-no-html.svg',
+    description: (
+      <>
+        Focus on your work rather than fighting with endless JavaScript frameworks, HTML templates, requests parsing or state management.
+      </>
+    ),
+  },
+  {
+    title: <>Zero deployment</>,
+    imageUrl: 'img/home-zero-deploy.svg',
+    description: (
+      <>
+        Instantly make your work available on the web by streaming app UI to a central Pglet web server or a <a href="/docs/pglet-service">hosted Pglet service</a>.
+      </>
+    ),
+  },
+];
 
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames("col col--6", styles.feature)}>
+    <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img
-            className={classnames("padding-vert--md", styles.featureImage)}
-            src={imgUrl}
-            alt={title}
-          />
+          <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
       <h3>{title}</h3>
-      {description}
+      <p>{description}</p>
     </div>
   );
 }
@@ -30,87 +57,47 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      // title={`${siteConfig.title}`}
-      description="Things"
-      keywords={[
-        "ocular-d",
-      ]}
-    >
-      <header className={classnames("hero", styles.heroBanner)}>
-        <div className="container">
+      title={`${siteConfig.customFields.heroTitle}`}
+      description={`${siteConfig.tagline}`}>
+      <div className="container">
+        <header className={clsx('pglet-hero',styles.heroBanner)}>
           <div className="row">
-            <div className={classnames("col col--5 col--offset-1")}>
+            <div className="col col--6">
+              <div className={styles.bkg}>
+              <img
+              src="img/pngegg.png"
+              />
+              </div>
+            </div>
+            <div className="col col--6">
+              <div className={styles.right}>
               <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
-              <p>
-                How guidelines and tools can help!
-              </p>
-              <div className={styles.buttons}>
-                <Link
-                  className={classnames(
-                    "button button--outline button--primary button--lg",
-                    styles.getStarted
-                  )}
-                  to={useBaseUrl("main-intro")}
-                >
-                  Get Started
-                </Link>
+                <div className={styles.buttons}>
+                  <Link
+                    className={styles.indexCtasGetStartedButton}
+                    to={useBaseUrl('docs/')}>
+                    Get Started
+                  </Link>
+                </div>
               </div>
             </div>
-            <div className={classnames("col col--5")}>
-              <img
-                className={styles.heroImg}
-                src="img/pngegg.png"
-                class="onna-home-animation"
-              />
-            </div>
           </div>
-        </div>
-      </header>
+        </header>
+      </div>
       <main>
-        <div className="container">
-          <div className="box-wrapper" markdown="1">
-            <div className="box box1 card">
-              <div className="container">
-                <h2>Guides</h2>
-                <p>Getting started, guides and tutorials.</p>
-                <ul>
-                  <li>
-                    <a href="https://styleguide.mailchimp.com/">Mailchimp</a>
-                  </li>
-                  <li>
-                    <a href="https://developers.google.com/style">Google</a>
-                  </li>
-                  <li>
-                    <a href="https://docs.microsoft.com/en-gb/style-guide/welcome/">Microsoft Style Guide</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/testthedocs/awesome-docs#style-guides">TestTheDocs</a>
-                  </li>
-                </ul>
+        {features && features.length > 0 && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
               </div>
             </div>
-            <div className="box box2 card">
-              <div className="container">
-                <h2>Tools</h2>
-                <p>Tools that can help</p>
-                <ul>
-                  <li>
-                    <a href="https://docs.errata.ai/">Vale</a>
-                  </li>
-                  <li>
-                    <a href="https://languagetool.org/">LanguageTool</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/textlint/textlint">Text Lint</a>
-                  </li>
-                </ul>
-                <p>And many more!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container"><p></p></div>
+          </section>
+        )}
+        
       </main>
     </Layout>
   );

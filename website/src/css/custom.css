@@ -107,3 +107,8 @@
   --ifm-alert-foreground-color: var( --ifm-color-info-contrast-foreground );
   --ifm-alert-border-color: var(--ifm-color-primary-darkest);
 } */
+
+.indexCtasGetStartedButton_UQaK:hover {
+  background-color: #a847e9;
+  color: #fff;
+}
