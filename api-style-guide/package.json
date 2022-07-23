@@ -1,0 +1,7 @@
+{
+  "name": "@ocular-d/api-style-guide",
+  "version": "1.0.0",
+  "description": "Spectral rules ",
+  "main": "index.js",
+  "license": "MIT"
+}

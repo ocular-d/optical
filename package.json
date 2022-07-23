@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "name": "optical",
+    "workspaces": ["website", "api-style-guide"],
+    "scripts": {}
+ }
