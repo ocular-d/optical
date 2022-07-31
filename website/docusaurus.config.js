@@ -88,6 +88,14 @@ const config = {
           },
         ],
       },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'This project is Work in Progress (WIP)',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       colorMode: {
         // "light" | "dark"
         defaultMode: 'light',

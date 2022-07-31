@@ -1,4 +1,4 @@
-<h1 align="center">Doctor Bunsen Honeydew</h1>
+<h1 align="center">Optical</h1>
 
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
@@ -8,7 +8,9 @@
 
 ## About The Project
 
-Watch your language! How guidelines and tools can help.
+**Status:** WIP
+
+How guidelines and tools can help.
 
 ## Requirements
 
