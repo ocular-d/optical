@@ -65,7 +65,7 @@ function Home() {
             <div className="col col--6">
               <div className={styles.bkg}>
               <img
-              src="img/pngegg.png"
+              src="img/api-spellcheck.png"
               />
               </div>
             </div>
@@ -97,7 +97,6 @@ function Home() {
             </div>
           </section>
         )}
-        
       </main>
     </Layout>
   );
