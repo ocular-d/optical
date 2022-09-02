@@ -1,0 +1,4 @@
+make: Entering directory `/Users/svx/Projects/ocl/optical'
+echo -e "$(grep -hE '^\S+:.*##'  Makefile | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[35m\1\\x1b[m:\2/' | column -c2 -t -s :)"
+make: Leaving directory `/Users/svx/Projects/ocl/optical'
+ 

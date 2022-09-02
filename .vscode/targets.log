@@ -1,0 +1,328 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Mon Aug 22 12:01:28 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LC_CTYPE = UTF-8
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# environment
+PERIOD = 30
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /Users/svx/Projects/ocl/optical
+# makefile (from `Makefile', line 2)
+SHELL := /bin/bash
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ZPLUG_CONFIG_SUBSHELL = :
+# environment
+_ = /usr/bin/make
+# environment
+TALISMAN_HOME = /Users/svx/.talisman/bin
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+ZPLUG_THREADS = 16
+# environment
+ZPLUG_FILTER = fzf-tmux:fzf:peco:percol:fzy:zaw
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+_ZPLUG_VERSION = 2.4.2
+# environment
+VSCODE_CWD = /Users/svx/Projects/ocl/optical
+# environment
+PATH = /Users/svx/.pyenv/shims:/Users/svx/.poetry/bin:/Users/svx/.pyenv/bin:/usr/local/sbin:/Users/svx/google-cloud-sdk/bin:/bin:/shims:/usr/local/Cellar/pyenv-virtualenv/1.1.5/shims:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gnu-sed/libexec/gnubin:/Users/svx/.cargo/bin:/usr/local/opt/sphinx-doc/bin:/Users/svx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/svx/usr/local/bin:/Users/svx/go/bin:/usr/local/opt/fzf/bin
+# environment
+LSCOLORS = GxFxCxDxBxegedabagaced
+# environment
+SPACESHIP_VERSION = 3.11.2
+# environment
+ZPLUG_HOME = /usr/local/opt/zplug
+# environment
+ZPLUG_CACHE_DIR = /usr/local/opt/zplug/cache
+# environment
+GOPATH = /Users/svx/go
+# environment
+LaunchInstanceID = 871FD3BD-C6EA-4E07-89AE-78F0962000B4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /Users/svx/.pyenv
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /var/folders/pp/53zfbjxs4m3bcy19w1mqgmxc0000gn/T//ssh-aEKfHsYGuKHs/agent.10668
+# automatic
+%F = $(notdir $%)
+# environment
+ZPLUG_PROTOCOL = HTTPS
+# environment
+PWD = /Users/svx/Projects/ocl/optical
+# environment
+SSH_AGENT_PID = 10670
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 7)
+GREEN = `tput setaf 2`
+# environment
+_ZPLUG_URL = https://github.com/zplug/zplug
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/svx
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/svx/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = svx
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /usr/local/opt/zplug/repos/robbyrussell/oh-my-zsh
+# environment
+TALISMAN_INTERACTIVE = false
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+ZPLUG_BIN = /usr/local/opt/zplug/bin
+# environment
+_ZPLUG_PREZTO = sorin-ionescu/prezto
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = svx
+# makefile
+.DEFAULT_GOAL := help
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p0:FCFAA7CA-F73F-42BB-850C-C32A1D26E8F0
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+ZSH_CACHE_DIR = /usr/local/opt/zplug/repos/robbyrussell/oh-my-zsh/cache/
+# environment
+MallocProbGuardViaLaunchd = 1
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/pp/53zfbjxs4m3bcy19w1mqgmxc0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/svx/Library/Application Support/Code/1.70.2-main.sock
+# environment
+FPATH = /usr/local/share/zsh-completions:/usr/local/opt/zplug/repos/robbyrussell/oh-my-zsh/plugins/lein:/usr/local/opt/zplug/repos/robbyrussell/oh-my-zsh/plugins/github:/usr/local/Cellar/zplug/2.4.2/autoload:/usr/local/Cellar/zplug/2.4.2/misc/completions:/usr/local/Cellar/zplug/2.4.2/base/sources:/usr/local/Cellar/zplug/2.4.2/base/utils:/usr/local/Cellar/zplug/2.4.2/base/job:/usr/local/Cellar/zplug/2.4.2/base/log:/usr/local/Cellar/zplug/2.4.2/base/io:/usr/local/Cellar/zplug/2.4.2/base/core:/usr/local/Cellar/zplug/2.4.2/base/base:/usr/local/Cellar/zplug/2.4.2/autoload/commands:/usr/local/Cellar/zplug/2.4.2/autoload/options:/usr/local/Cellar/zplug/2.4.2/autoload/tags:/usr/local/share/zsh/site-functions:/usr/local/Cellar/zsh/5.9/share/zsh/functions:/usr/local/opt/zplug/repos/zsh-users/zsh-completions/src
+# environment
+MallocNanoZone = 0
+# makefile (from `Makefile', line 6)
+RED = `tput setaf 1`
+# environment
+_ZPLUG_AWKPATH = /usr/local/Cellar/zplug/2.4.2/misc/contrib
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.16
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.76502061.76502067.21E673EA-B9EE-4F63-AC8E-511AADCBA272
+# environment
+LC_TERMINAL_VERSION = 3.4.16
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 9)
+YELLOW = `tput setaf 3`
+# automatic
++F = $(notdir $+)
+# environment
+ZPLUG_USE_CACHE = true
+# environment
+ITERM_SESSION_ID = w0t0p0:FCFAA7CA-F73F-42BB-850C-C32A1D26E8F0
+# environment
+ZPLUG_ROOT = /usr/local/Cellar/zplug/2.4.2
+# environment
+COLORFGBG = 15;0
+# environment
+ZPLUG_REPOS = /usr/local/opt/zplug/repos
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+GOPRIVATE = github.com/ocular-d/*
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 8)
+RESET = `tput sgr0`
+# environment
+_ZPLUG_OHMYZSH = robbyrussell/oh-my-zsh
+# environment
+SECURITYSESSIONID = 186a3
+# environment
+SPACESHIP_ROOT = /usr/local/Cellar/zplug/2.4.2/repos/denysdovhan/spaceship-prompt
+# automatic
+^F = $(notdir $^)
+# environment
+ZPLUG_ERROR_LOG = /usr/local/opt/zplug/.error_log
+# default
+SUFFIXES := 
+# environment
+PYENV_VIRTUALENV_INIT = 1
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+ZPLUG_LOADFILE = /usr/local/opt/zplug/packages.zsh
+# environment
+CLICOLOR = 1
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 12084
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=8/136=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 76806337): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: help init
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-22 12:01:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 16):
+	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[35m\1\\x1b[m:\2/' | column -c2 -t -s :)"
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+init:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 20):
+	@echo "$(YELLOW)==> Initialize project$(RESET)"
+	@pre-commit install
+	
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Aug 22 12:01:28 2022
+
+ 
