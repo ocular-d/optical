@@ -52,7 +52,7 @@ function Home() {
           <div className="container">
             <Feature
               imgUrl="img/features/undraw_server_down_s4lk.svg"
-              title={<Translate id="home.easytouse">Easy to Use</Translate>}
+              title={<Translate id="home.easytouse">OpenAPI Guide</Translate>}
               description={
                 <>
                   <p>
@@ -71,20 +71,17 @@ function Home() {
                   <ul>
                     <li>
                       <Translate id="home.easytouse.2">
-                        Ability to perform chaos experiments in production environments without modifying the deployment
-                        logic of the application.
+                      Design stunning APIs with the focus on functionality, usability and creating a nice user experience
                       </Translate>
                     </li>
                     <li>
                       <Translate id="home.easytouse.3">
-                        Easily orchestrate the behavior of chaos experiments, allowing users to observe the state of the
-                        experiment itself in real time and quickly rollback any injected failures.
+                      Standards for consistent, stable and extendable APIs
                       </Translate>
                     </li>
                     <li>
                       <Translate id="home.easytouse.4">
-                        Packed with dashboard. No handwritten experiment definitions are required, and a chaos
-                        experiment can be run smoothly in just a few clicks.
+                      Beautiful reference docs, quick-start guides and tutorials are part of awesome APIs
                       </Translate>
                     </li>
                   </ul>
@@ -93,7 +90,7 @@ function Home() {
             />
             <Feature
               imgUrl="img/logos/kubernetes.svg"
-              title={<Translate id="home.k8s">Design for Kubernetes</Translate>}
+              title={<Translate id="home.k8s">OpenAPI Guide</Translate>}
               description={
                 <>
                   <p>
@@ -122,7 +119,7 @@ function Home() {
             />
             <Feature
               imgUrl="img/features/undraw_Operating_system_re_iqsc.svg"
-              title={<Translate id="home.failuretypes">A wide variety of failure types</Translate>}
+              title={<Translate id="home.failuretypes">Editorial Guide</Translate>}
               description={
                 <p>
                   <Translate id="home.failuretypes.1">
@@ -136,7 +133,7 @@ function Home() {
             />
             <Feature
               imgUrl="img/features/undraw_Security_on_re_e491.svg"
-              title={<Translate id="home.safe">Safe and Controllable</Translate>}
+              title={<Translate id="home.safe">Markdown Guide</Translate>}
               description={
                 <>
                   <p>
