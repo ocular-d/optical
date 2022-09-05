@@ -19,3 +19,8 @@ help: ## This help message
 init: ## Initialize project
 	@echo "$(YELLOW)==> Initialize project$(RESET)"
 	@pre-commit install
+
+.PHONY: docs
+docs: ## RUn docs in local mode
+	@echo "$(YELLOW)==> Starting docs in local mode$(RESET)"
+	@yarn workspace website start
