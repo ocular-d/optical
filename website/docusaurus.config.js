@@ -42,6 +42,11 @@ const config = {
     ],
   ],
 
+  scripts: [
+    {
+      src: "https://kit.fontawesome.com/3a9f2eb5b9.js",
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
