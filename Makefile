@@ -9,6 +9,10 @@ RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
 # Vars
+NAME = optical
+DOCKER := $(bash docker)
+
+# Vars
 # Add the following 'help' target to your Makefile
 # And add help text after each target name starting with '\#\#'
 .PHONY: help
@@ -19,3 +23,12 @@ help: ## This help message
 init: ## Initialize project
 	@echo "$(YELLOW)==> Initialize project$(RESET)"
 	@pre-commit install
+
+.PHONY: build-docker
+build-docker: openapi.yaml ## Build production image
+        @docker build --no-cache=true -t $(NAME) -f Dockerfile .
+
+.PHONY: run-docker
+run-docker: ## Start prod container locally on port 8080
+        @echo "$(YELLOW)==> Please open your browser localhost:8080$(RESET)"
+        @docker run --rm -p 8080:8080 --name public-api-docs $(NAME):latest
