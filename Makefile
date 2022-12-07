@@ -25,10 +25,10 @@ init: ## Initialize project
 	@pre-commit install
 
 .PHONY: build-docker
-build-docker: openapi.yaml ## Build production image
-        @docker build --no-cache=true -t $(NAME) -f Dockerfile .
+build-docker: ## Build production image
+	@docker build --no-cache=true -t $(NAME) -f Dockerfile .
 
 .PHONY: run-docker
 run-docker: ## Start prod container locally on port 8080
-        @echo "$(YELLOW)==> Please open your browser localhost:8080$(RESET)"
-        @docker run --rm -p 8080:8080 --name public-api-docs $(NAME):latest
+	@echo "$(YELLOW)==> Please open your browser localhost:8080$(RESET)"
+	@docker run --rm -p 9090:8080 --name public-api-docs $(NAME):latest

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './hero.module.css';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+//import useBaseUrl from '@docusaurus/useBaseUrl';
 import Container from "../../../components/container/container";
 
 export default function Hero() {

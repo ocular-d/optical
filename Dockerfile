@@ -10,17 +10,18 @@ RUN apk --no-cache add git \
 USER node
 WORKDIR /app/website
 
-COPY --chown=node:node package.json /app/website/package.json
-COPY --chown=node:node yarn.lock /app/website/yarn.lock
-COPY --chown=node:node babel.config.js /app/website/babel.config.js
-COPY --chown=node:node changelog /app/website/changelog
-COPY --chown=node:node docusaurus.config.js /app/website/docusaurus.config.js
-COPY --chown=node:node docs /app/website/docs
-COPY --chown=node:node sidebars.js /app/website/sidebars.js
-COPY --chown=node:node src /app/website/src
-COPY --chown=node:node static /app/website/static
-COPY --chown=node:node openapi.yaml /app/website/openapi.yaml
+COPY --chown=node:node website/package.json /app/website/package.json
+COPY --chown=node:node website/yarn.lock /app/website/yarn.lock
+COPY --chown=node:node website/babel.config.js /app/website/babel.config.js
+#COPY --chown=node:node changelog /app/website/changelog
+COPY --chown=node:node website/docusaurus.config.js /app/website/docusaurus.config.js
+COPY --chown=node:node website/docs /app/website/docs
+COPY --chown=node:node website/sidebars.js /app/website/sidebars.js
+COPY --chown=node:node website/src /app/website/src
+COPY --chown=node:node website/static /app/website/static
 COPY .git /app/website/.git
+
+RUN git config --global --add safe.directory /app/website
 
 # --- Only used for testing ---
 #RUN yarn install
@@ -36,7 +37,7 @@ RUN yarn install \
 
 # ---- Release ----
 # Copy static docs to alpine-based NGINX container.
-FROM nginx:1.23.3-alpine
+FROM nginx:1.23.2-alpine
 LABEL maintainer "Docs Team<sven@testthedocs.org>"
 
 ENV NGINX_ENTRYPOINT_QUIET_LOGS=1
@@ -53,4 +54,4 @@ COPY --from=base /app/website/build /usr/share/nginx/html
 
 USER nginx
 
-EXPOSE 8080
+EXPOSE 9090

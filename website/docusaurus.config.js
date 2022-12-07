@@ -10,12 +10,15 @@ const config = {
   tagline: '- Watch your language -',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'ocular-d', // Usually your GitHub org/user name.
   projectName: 'optical', // Usually your repo name.
 
+  plugins: [
+    "docusaurus-plugin-sass",
+  ],
   presets: [
     [
       'classic',
