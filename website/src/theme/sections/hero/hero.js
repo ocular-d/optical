@@ -10,8 +10,7 @@ export default function Hero() {
                 <div className={styles.heroInner}>
                     <div>
                         <h1>Documentation & Guides</h1>
-                        <p>Explore our guides, samples and references to analyze
-                            your data with Memgraph</p>
+                        <p>Explore our guides and create beautiful documentation</p>
                     </div>
                     {/* <div> */}
                         {/* <div className={styles.heroImg}> */}

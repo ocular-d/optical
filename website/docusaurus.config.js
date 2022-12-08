@@ -100,7 +100,7 @@ const config = {
         id: 'support_us',
         content:
           'This project is Work in Progress (WIP)',
-        backgroundColor: '#fafbfc',
+        backgroundColor: '#f1f2f2',
         textColor: '#091E42',
         isCloseable: false,
       },

@@ -55,7 +55,7 @@ html[data-theme='dark'] {
 }
 
 .homeEcosystem__content {
-    background: #f9f9f9;
+    background: #f1f2f2;
 }
 
 .homeEcosystem__content__inner {
@@ -84,7 +84,7 @@ html[data-theme='dark'] {
 .homeEcosystem__content__inner > div:last-child > img {
     position: absolute;
     top: -128px;
-    right: 0;
+    right: -50px;
 }
 
 .homeEcosystem__content__url {

@@ -23,7 +23,7 @@ export default function HomeEcosystem() {
         //     url: 'https://memgraph.com/product/cloud',
         //     urlText: 'Learn more',
         // },
-        'Developer Experience': {
+        'Tooling': {
             description: 'Memgraph Playground is a web platform that contains a lot of helpful tutorials and examples on how complex data can be explored using the Cypher query language. You don’t need to install Memgraph, just follow the tutorial and play around with the predefined queries.',
             url: 'https://playground.memgraph.com',
             urlText: 'Visit Playground',
@@ -68,7 +68,7 @@ export default function HomeEcosystem() {
                             </a>
                         </div>
                         <div>
-                            <img src={useBaseUrl('img/memgraph-image.svg')} />
+                            <img src={useBaseUrl('img/vale-px-png.svg')} />
                         </div>
                     </div>
                 </Container>
