@@ -9,6 +9,12 @@ Always use inline links.
 
 ---
 
+## Link descriptions
+
+- https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/links/all-links-must-contain-either-text-or-an-image-with-alt-text/
+
+## Here a new header
+
 Use [inline](https://spec.commonmark.org/0.29/#inline-link "Link to specification") links instead of [reference](https://spec.commonmark.org/0.29/#reference-link "Link to specification").
 
 **:thumbsup: Correct** code for this rule:
