@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Style guide
+title: Editorial guide
 description: An example style guide
 ---
 
