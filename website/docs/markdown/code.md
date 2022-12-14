@@ -47,11 +47,55 @@ export default Awesome;
 ```
 ~~~
 
+### Fenced code blocks should be surrounded by blank lines
+
+>markdown-lint:[MD031 ](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md031)
+
+This rule is triggered when fenced code blocks are either not preceded or not
+followed by a blank line:
+
+````markdown
+Some text
+```
+Code block
+```
+
+```
+Another code block
+```
+Some more text
+````
+
+To fix this, ensure that all fenced code blocks have a blank line both before
+and after (except where the block is at the beginning or end of the document):
+
+````markdown
+Some text
+
+```
+Code block
+```
+
+```
+Another code block
+```
+
+Some more text
+````
+
+Set the `list_items` parameter to `false` to disable this rule for list items.
+Disabling this behavior for lists can be useful if it is necessary to create a
+[tight](https://spec.commonmark.org/0.29/#tight) list containing a code fence.
+
+Rationale: Aside from aesthetic reasons, some parsers, including kramdown, will
+not parse fenced code blocks that don't have blank lines before and after them.
+
 ## Syntax highlighting
 
 Explicitly declare the language for blocks containing code snippets, so that neither the syntax highlighter nor the next editor must guess.
 
 > remark-lint: [fenced-code-flag](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-fenced-code-flag "Link to remarkjs docs")
+> markdown-lint: [MD040](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md040)
 
 **:thumbsup: Correct** code for this rule:
 
@@ -108,6 +152,7 @@ It improves the readability and prevents error when users copy and paste the cod
 To clarify the output of a command use for example a comment on the next line or optionally append it to the command on the same line, separated by a space.
 
 > remark-lint: [no-shell-dollars](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-shell-dollars "Link to remarkjs docs")
+> markdown-lint:[MD014](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md014)
 
 **:thumbsup: Correct** code for this rule:
 
@@ -171,7 +216,7 @@ Use ```pip``` and ```buildout```!
 Use backtick characters `` ` `` for both blocks and inline code.
 
 > remark-lint: [fenced-code-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-fenced-code-marker "Link to remarkjs docs")
-
+> markdown-lint:[https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md048](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md048)
 
 **:thumbsup: Correct** code for this rule:
 
