@@ -9,6 +9,21 @@ Always use inline links.
 
 ---
 
+:::note Todo
+Adjust text to use markdown-lint rules
+
+- links - MD011, MD034, MD039, MD042, MD051, MD052, MD053
+:::
+
+:::info
+Test
+:::
+
+:::warning
+Test
+:::
+
+
 ## Link descriptions
 
 - https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/links/all-links-must-contain-either-text-or-an-image-with-alt-text/
