@@ -21,3 +21,5 @@ How guidelines and tools can help.
 
 - Add LT
 - Add different settings for vale, local and GH actions
+
+For boxes check https://github.com/saucelabs/sauce-docs/tree/main/docs, CSS is already included.
