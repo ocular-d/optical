@@ -10,7 +10,9 @@ export default function Hero() {
                 <div className={styles.heroInner}>
                     <div>
                         <h1>Documentation & Guides</h1>
-                        <p>Explore our guides and create beautiful documentation</p>
+                        <p>Create beautiful documentation</p>
+                        <p>Add here a button and/or add more info about docs like code, etc, maybe change the h1</p>
+                        <p>Add a cool picture, maybe with showing some checks as SVG</p>
                     </div>
                     {/* <div> */}
                         {/* <div className={styles.heroImg}> */}

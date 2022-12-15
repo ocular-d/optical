@@ -33,6 +33,11 @@ export default function HomeEcosystem() {
             url: useBaseUrl('/mage'),
             urlText: 'Get Started',
         },
+        'CI/CD': {
+            description: 'Docs Like Code.',
+            url: useBaseUrl('/mage'),
+            urlText: 'Get Started',
+        },
         // 'GQLAlchemy': {
         //     description: 'GQLAlchemy is a fully open-source Python library that aims to be the go-to Object Graph Mapper (OGM) - a link between Graph Database objects and Python objects.',
         //     url: useBaseUrl('/gqlalchemy'),
