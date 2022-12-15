@@ -64,6 +64,7 @@ conversational platform.
 <SuccessBox>
 
 ## Learn more
-This is a awesome Foo
+
+This is a awesome Foo on [GitHub](https://github.com)
 
 </SuccessBox>
