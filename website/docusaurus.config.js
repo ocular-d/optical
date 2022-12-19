@@ -134,8 +134,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Awesome Docs',
+                href: 'https://testthedocs.github.io/awesome-docs/',
               },
               {
                 label: 'Discord',
