@@ -115,3 +115,10 @@ Add "Learn more container"
     </div>
   </div>
 </div>
+
+Pronouns and gender
+
+Instead, rewrite—for example, use the second person (you).
+Or refer to a person's role (customer, employee, or client).
+
+It's OK to use gendered pronouns (he or she) when you're writing about real people who use those pronouns themselves.
