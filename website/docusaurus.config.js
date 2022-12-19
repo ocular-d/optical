@@ -67,12 +67,14 @@ const config = {
             items: [
               {
                 label: 'Markdown',
-                href: 'https://ocular-d.github.io/styleguide-markdown/',
+                // href: 'https://ocular-d.github.io/styleguide-markdown/',
+                type: 'doc',
+                docId: 'markdown/md-code',
               },
               {
                 type: 'doc',
                 label: 'Editorial',
-                docId: 'style-guide',
+                docId: 'editorial/accessibility-terms',
               },
               {
                 label: 'OpenAPI',
