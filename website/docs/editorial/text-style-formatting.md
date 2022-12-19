@@ -3,13 +3,19 @@ sidebar_position: 14
 id: text-style
 title: Text style and formatting
 description: Learn how to format names and other types of non-standard text.
+date: 2019-10-05
+link: https://mp.weixin.qq.com/s/eYSzE_GJ-gQ_hMAPx8240Q
 ---
 
 Learn how to format names and other types of non-standard text.
 
+import DocMetadataBanner from "@site/src/components/DocMetadataBanner";
+
+<DocMetadataBanner frontMatter={frontMatter} />
+
 ---
 
-::: warning Note
+:::warning Note
  For more information about how to deal with code samples, check the ./examples-placeholders.md "Link to Code Samples" section.
 
 An exhaustive list of use cases for the code font is available in the [Google Dev Style Guide](https://developers.google.com/style/code-in-text "Link to Google Dev Docs Style Guide").
