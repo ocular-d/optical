@@ -68,3 +68,10 @@ conversational platform.
 This is a awesome Foo on [GitHub](https://github.com)
 
 </SuccessBox>
+
+
+:::caution This is a test
+
+Huhu
+
+:::

@@ -140,9 +140,9 @@
     vertical-align: middle;
   }
   
-  .col + .col {
+  /* .col + .col {
     padding-left: 0;
-  }
+  } */
   
   
   /* Sidebar background */
@@ -410,18 +410,46 @@
     font-size: 0.875rem;
   }
   
+  .admonition_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module {
+    font-size: 0.875rem;
+  }
+
   .admonition code {
     font-size: 0.875rem;
   }
   
-  .admonition h5 {
+  /* .admonition h5 {
     font-size: 1rem;
     font-weight: 500;
     margin-top: 0.25rem;
     margin-bottom: 1rem;
     text-transform: capitalize;
-  }
+  } */
   
+  .admonitionHeading_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module {
+    font-size: 1rem;
+    font-weight: 500;
+    /* margin-top: 0.25rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize !important;
+  }
+  /* .admonition_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  } */
+
+  .admonitionHeading_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize !important;
+  }
+
   .admonition h5:after {
     background: currentColor;
     content: " ";
@@ -433,10 +461,37 @@
     width: 100%;
   }
   
+  /* .admonition_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module h5:after {
+    background: currentColor;
+    content: " ";
+    display: block;
+    height: 1px;
+    margin-bottom: -0.25rem;
+    margin-top: 1rem;
+    opacity: 0.25;
+    width: 100%;
+  } */
+
+  .admonitionHeading_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module::after {
+    background: currentColor;
+    content: " ";
+    display: block;
+    height: 1px;
+    /* margin-bottom: -0.25rem; */
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    opacity: 0.25;
+    width: 100%;
+  }
+
   .admonition .admonition-icon {
     display: none;
   }
   
+  .admonitionIcon_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module {
+    display: none !important;
+  }
+
   .alert {
     border-left-style: solid;
   }

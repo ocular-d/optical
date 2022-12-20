@@ -53,7 +53,7 @@ This is a "info" admonition. Use it to give information about limitations, addit
 
 :::caution
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Some **content** with _Markdown_ `syntax`. Check [this `API`](#).
 
 :::
 
