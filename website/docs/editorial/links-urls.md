@@ -2,10 +2,19 @@
 sidebar_position: 9
 id: links-urls
 title: Links and URLs
-description: How to deal with URLs and hyperlinks.
+description: How to deal with URLs and hyperlinks
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to deal with URLs and hyperlinks.
+
+</TLDR>
 
 ---
 

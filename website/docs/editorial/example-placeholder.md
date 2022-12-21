@@ -2,10 +2,19 @@
 sidebar_position: 7
 id: example-placeholder
 title: Examples and placeholders
-description: Best practices on how to provide examples and placeholder text so that users can relate to them.
+description: Best practices on how to provide examples and placeholder text so that users can relate to them
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Best practices on how to provide examples and placeholder text so that users can relate to them.
+
+</TLDR>
 
 ---
 

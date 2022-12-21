@@ -2,10 +2,19 @@
 sidebar_position: 4
 id: bias-free
 title: Bias-free communication
-description: Use gender-neutral alternatives for common terms.
+description: Use gender-neutral alternatives for common terms
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Use gender-neutral alternatives for common terms.
+
+</TLDR>
 
 :::info To do
 *Add note, that we use alex.js and vale for testing*

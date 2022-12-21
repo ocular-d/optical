@@ -2,10 +2,19 @@
 sidebar_position: 13
 id: screenshots
 title: Screenshots
-description: When and how to use screenshots.
+description: When and how to use screenshots
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 When and how to use screenshots.
+
+</TLDR>
 
 ---
 

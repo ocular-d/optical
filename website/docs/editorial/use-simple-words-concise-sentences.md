@@ -2,10 +2,19 @@
 sidebar_position: 15
 id: clear-sentences
 title: Use short and clear sentences
-description: Concise, clear sentences save space, are easy to understand, and facilitate scanning.
+description: Concise, clear sentences save space, are easy to understand, and facilitate scanning
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Concise, clear sentences save space, are easy to understand, and facilitate scanning.
+
+</TLDR>
 
 ---
 

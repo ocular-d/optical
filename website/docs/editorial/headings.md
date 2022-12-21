@@ -2,10 +2,19 @@
 sidebar_position: 8
 id: headings
 title: Headings
-description: Use short and understandable headings.
+description: Use short and understandable headings
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Use short and understandable headings.
+
+</TLDR>
 
 ---
 

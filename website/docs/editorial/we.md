@@ -2,10 +2,19 @@
 sidebar_position: 16
 id: we
 title: Avoid first-person plural
-description: First-person plural, which often uses the pronoun we, can feel like a daunting corporate presence, the opposite of a modern voice.
+description: First-person plural, which often uses the pronoun we, can feel like a daunting corporate presence, the opposite of a modern voice
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 First-person plural, which often uses the pronoun we, can feel like a daunting corporate presence, the opposite of a modern voice.
+
+</TLDR>
 
 ---
 

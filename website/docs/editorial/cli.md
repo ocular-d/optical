@@ -2,14 +2,19 @@
 sidebar_position: 6
 id: cli
 title: Command Line Interface
-description: How to document CLI.
+description: How to document CLI
+tags:
+  - Editorial
+  - Style Guide
 ---
 
-:::tip WIP
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to document CLI.
-:::
 
-
+</TLDR>
 
 ---
 

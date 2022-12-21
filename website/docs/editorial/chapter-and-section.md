@@ -2,10 +2,19 @@
 sidebar_position: 5
 id: chapter-and-section
 title: Chapter and sections
-description: How to use chapter and sections to structure documents.
+description: How to use chapter and sections to structure documents
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to use chapter and sections to structure documents.
+
+</TLDR>
 
 ---
 

@@ -2,16 +2,19 @@
 sidebar_position: 14
 id: text-style
 title: Text style and formatting
-description: Learn how to format names and other types of non-standard text.
-date: 2019-10-05
-link: https://mp.weixin.qq.com/s/eYSzE_GJ-gQ_hMAPx8240Q
+description: Learn how to format names and other types of non-standard text
+tags:
+  - Editorial
+  - Style Guide
 ---
+
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
 
 Learn how to format names and other types of non-standard text.
 
-import DocMetadataBanner from "@site/src/components/DocMetadataBanner";
-
-<DocMetadataBanner frontMatter={frontMatter} />
+</TLDR>
 
 ---
 

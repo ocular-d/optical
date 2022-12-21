@@ -2,10 +2,19 @@
 sidebar_position: 10
 id: numbers
 title: Using numbers in documents
-description: How to use numbers.
+description: How to use numbers
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to use numbers
+
+</TLDR>
 
 ---
 
