@@ -3,35 +3,39 @@ sidebar_position: 1
 id: accessibility-terms
 title: Accessibility terms
 description: Write in a way that puts people first by using the phrase person with or person who
+tags:
+  - Editorial
+  - Style Guide
 ---
+
+import TLDR from "@site/src/components/TLDR";
+import SuccessBox from "@site/src/components/SuccessBox";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<TLDR>
 
 Don’t use language that defines people by their disability, such as disabled, impaired, and the deaf.
 A person might have a visual impairment, but that person isn’t impaired.
+
+</TLDR>
 
 ---
 
 ## Examples
 
-Person with visual impairment, person who is blind
-
-Person with hearing loss, person with deafness
-
-Person who is nonverbal, person who uses sign language
-
-Person who uses a wheelchair
-
-Person with a prosthetic limb, person without a limb
-
-Person with autism
-
-Person of small stature
-
-To learn more about writing that conveys respect to all people and promotes equal opportunities,
-see the [Guidelines for Inclusive Language](http://www.linguisticsociety.org/content/guidelines-inclusive-language "Link to Linguistic Society") from the Linguistic Society of America.
+- Person with visual impairment, person who is blind
+- Person with hearing loss, person with deafness
+- Person who is nonverbal, person who uses sign language
+- Person who uses a wheelchair
+- Person with a prosthetic limb, person without a limb
+- Person with autism
+- Person of small stature
 
 ---
 
-**:thumbsup: Correct** code for this rule:
+<Tabs>
+<TabItem value="correct" label="✅ Correct">
 
 ```markdown
 Blind, has low vision
@@ -64,7 +68,10 @@ Person with a prosthetic limb, person without a limb
 ```markdown
 People with disabilities
 ```
-**:thumbsdown: Incorrect** code for this rule:
+
+</TabItem>
+
+<TabItem value="incorrect" label="❌ Incorrect">
 
 ```markdown
 Sight-impaired, vision-impaired
@@ -97,3 +104,18 @@ Maimed, missing a limb
 ```markdown
 The disabled, disabled people, people with handicaps, the handicapped
 ```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+<SuccessBox>
+
+## Read more
+
+To learn more about writing that conveys respect to all people and promotes equal opportunities,
+see the [Guidelines for Inclusive Language](http://www.linguisticsociety.org/content/guidelines-inclusive-language "Link to Linguistic Society") from the Linguistic Society of America.
+
+</SuccessBox>

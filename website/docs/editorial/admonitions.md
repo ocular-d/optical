@@ -2,19 +2,30 @@
 sidebar_position: 2
 id: admonitions
 title: Admonitions
-description: Use admonitions to capture the reader’s attention, but don't overuse them.
+description: Use admonitions to capture the reader’s attention, but don't overuse them
+tags:
+  - Editorial
+  - Style Guide
 ---
+
+import TLDR from "@site/src/components/TLDR";
+import SuccessBox from "@site/src/components/SuccessBox";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<TLDR>
 
 Use admonitions to capture the reader’s attention, but don't overuse them.
 
+</TLDR>
+
 ---
 
-:::tip Theory is at the end of the article
-Check the [Theory](#theory "Theory section of the article") section at end of the article if you want to know why we are giving these suggestions
-or just grab the quick tips.
-:::
+Admonitions stand out from the main body of text to capture the reader’s attention on something important.
+For their nature, they break the reading flow and are perceived as a distraction by readers.
+If they appear frequently, readers will think that they don't contain important information, so they will skip them.
 
-## Follow these recommendations
+## Recommendations
 
 When you use admonitions, keep these recommendations in mind:
 
@@ -66,13 +77,15 @@ human damage, and consequent liability if caution is not used or if the recommen
 This is a "warning" admonition. Use it to warn the user about possible fatal errors and possibility of service disruption.
 :::
 
-## Theory
+---
 
-Admonitions stand out from the main body of text to capture the reader’s attention on something important.
-For their nature, they break the reading flow and are perceived as a distraction by readers.
-If they appear frequently, readers will think that they don't contain important information, so they will skip them.
+<SuccessBox>
+
+## Read more
 
 Additionally, [research indicates](https://www.nngroup.com/articles/how-users-read-on-the-web/ "How users read on the Web by Nielsen Norman Group") that readers tend to scan the content rapidly
 and only turn their attention when they spot something important.
 By giving a meaningful title to an admonition, you'll reduce the cognitive load and the task completion time
 by allowing readers to spot at a glance if they are interested in the admonition or not.
+
+</SuccessBox>

@@ -75,3 +75,19 @@ This is a awesome Foo on [GitHub](https://github.com)
 Huhu
 
 :::
+
+<SuccessBox>
+
+## Syntax
+
+Foo
+
+</SuccessBox>
+<SuccessBox>
+
+## Preview
+
+bar
+
+</SuccessBox>
+

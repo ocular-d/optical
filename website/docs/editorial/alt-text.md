@@ -2,10 +2,19 @@
 sidebar_position: 3
 id: alt-text
 title: Alt Text in links and images
-description: Alt text is the descriptive text for links to URLs or media. Learn how to do it right.
+description: Alt text is the descriptive text for links to URLs or media. Learn how to do it right
+tags:
+  - Editorial
+  - Style Guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Alt text is the descriptive text for links to URLs or media. Learn how to do it right.
+
+</TLDR>
 
 ---
 
