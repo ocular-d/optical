@@ -3,6 +3,8 @@ sidebar_position: 1
 id: design-first
 title: Why design-first
 description: Designing an API before coding it can make your API more sustainable and helpmeet the users where they are
+tags:
+  - OpenAPI
 ---
 
 Designing an API before coding it can make your API more sustainable and helpmeet the users where they are

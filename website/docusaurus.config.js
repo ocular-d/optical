@@ -69,26 +69,28 @@ const config = {
                 label: 'Markdown',
                 // href: 'https://ocular-d.github.io/styleguide-markdown/',
                 type: 'doc',
-                docId: 'markdown/md-code',
+                docId: 'markdown/index',
               },
               {
                 type: 'doc',
                 label: 'Editorial',
-                docId: 'editorial/accessibility-terms',
+                docId: 'editorial/index',
               },
               {
+                type: 'doc',
                 label: 'OpenAPI',
-                href: 'https://openapi.ocular-d.tech/',
+                docId: 'openapi/index',
+                //href: 'https://openapi.ocular-d.tech/',
               },
               // ... more items
             ],
           },
-          {
-            type: 'doc',
-            docId: 'tools/tools-intro',
-            position: 'left',
-            label: 'Tools',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'tools/tools-intro',
+          //   position: 'left',
+          //   label: 'Tools',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
