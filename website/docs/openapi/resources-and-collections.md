@@ -8,7 +8,13 @@ tags:
   - style-guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Learn what resources and collections are, how to design them, and how they're different from each other.
+
+</TLDR>
 
 ---
 

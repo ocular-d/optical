@@ -5,7 +5,13 @@ title: Links
 description: Always use inline links
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Always use inline links.
+
+</TLDR>
 
 ---
 

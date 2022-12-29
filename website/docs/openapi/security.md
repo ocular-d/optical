@@ -8,7 +8,13 @@ tags:
   - style-guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Security is a feature everyone looks for when choosing an API. Make sure yours is a secure one.
+
+</TLDR>
 
 ---
 

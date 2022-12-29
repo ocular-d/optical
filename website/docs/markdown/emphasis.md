@@ -5,7 +5,13 @@ title: Emphasis
 description: How to use emphasis to highlight text
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to use emphasis to highlight text.
+
+</TLDR>
 
 ---
 

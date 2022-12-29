@@ -8,7 +8,13 @@ tags:
   - style-guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 List of commonly-used HTTP methods
+
+</TLDR>
 
 ---
 

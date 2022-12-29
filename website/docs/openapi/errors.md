@@ -8,5 +8,14 @@ tags:
   - style-guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Here all about useful error messages and that you should hide internal ones
 
+</TLDR>
+
+---
+
+Foo

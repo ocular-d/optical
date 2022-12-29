@@ -5,7 +5,13 @@ title: Blockquotes
 description: How to use blockquotes
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to use blockquotes.
+
+</TLDR>
 
 ---
 

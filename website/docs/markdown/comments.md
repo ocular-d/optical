@@ -5,7 +5,13 @@ title: Comments
 description: How to add hidden, non-rendered comments
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to add hidden, non-rendered comments.
+
+</TLDR>
 
 ---
 

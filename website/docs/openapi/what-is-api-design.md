@@ -7,7 +7,13 @@ tags:
   - OpenAPI
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Learn what design means, when applied to APIs.
+
+</TLDR>
 
 ---
 

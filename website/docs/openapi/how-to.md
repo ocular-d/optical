@@ -7,7 +7,13 @@ tags:
   - OpenAPI
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Learn why tutorials are a valuable resource and play a key role in how users experience your API
+
+</TLDR>
 
 ---
 

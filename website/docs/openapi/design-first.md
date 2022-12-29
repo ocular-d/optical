@@ -7,7 +7,14 @@ tags:
   - OpenAPI
 ---
 
+import TLDR from "@site/src/components/TLDR";
+import SuccessBox from "@site/src/components/SuccessBox";
+
+<TLDR>
+
 Designing an API before coding it can make your API more sustainable and helpmeet the users where they are
+
+</TLDR>
 
 ---
 
@@ -47,6 +54,12 @@ the skeleton of a full application can be generated. Many different programming 
 API First is the way to go, it makes things effortless, and it’s what OpenAPI was made for. When you start with an API spec, you can start building docs, tests and client/server code right away.
 **It’s more than a contract; it’s more than only docs; it’s an interface you’re building with words**.
 
+---
+
+<SuccessBox>
+
+## Read more
+
 - [API Design-First vs Code First](https://apisyouwonthate.com/blog/api-design-first-vs-code-first "API Design-First vs Code First")
 - [API-First Approach for Building Products](https://swagger.io/resources/articles/adopting-an-api-first-approach/ "API-First Approach")
 - [Understanding API-First Development](https://tanzu.vmware.com/developer/guides/microservices/api-first-development/)
@@ -54,3 +67,4 @@ API First is the way to go, it makes things effortless, and it’s what OpenAPI 
 - [Principles of API First Design Thinking](https://hackernoon.com/principles-of-api-first-design-thinking-x71t35c5)
 - [3 good reasons to do API Design Reviews](http://apihandyman.io/3-good-reasons-to-do-api-design-reviews/)
 
+</SuccessBox>

@@ -8,7 +8,13 @@ tags:
   - style-guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Some best practices to follow when naming your API elements.
+
+</TLDR>
 
 ---
 

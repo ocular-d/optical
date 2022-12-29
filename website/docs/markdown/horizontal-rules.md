@@ -5,7 +5,13 @@ title: Horizontal rules
 description: Horizontal rules can be used to separate content
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Horizontal rules can be used to separate content.
+
+</TLDR>
 
 ---
 

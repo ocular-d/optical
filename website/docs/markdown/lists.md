@@ -5,7 +5,13 @@ title: Lists
 description: How to use lists
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to use lists.
+
+</TLDR>
 
 ---
 

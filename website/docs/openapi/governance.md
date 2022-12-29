@@ -7,7 +7,13 @@ tags:
   - OpenAPI
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Why governance is good for your organization and what to consider when creating your governance strategy.
+
+</TLDR>
 
 ---
 

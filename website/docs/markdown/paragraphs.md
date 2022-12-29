@@ -5,7 +5,13 @@ title: Paragraphs
 description: Never indent the content of paragraphs
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Never indent the content of paragraphs.
+
+</TLDR>
 
 ---
 

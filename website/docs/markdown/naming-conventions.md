@@ -5,7 +5,13 @@ title: Naming conventions
 description: How to name files and usage of file extension
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 How to name files and usage of file extension.
+
+</TLDR>
 
 ---
 

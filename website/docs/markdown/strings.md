@@ -5,7 +5,13 @@ title: Strings
 description: Use double quotes for strings
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Use double quotes for strings.
+
+</TLDR>
 
 ---
 

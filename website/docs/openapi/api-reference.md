@@ -7,7 +7,13 @@ tags:
   - OpenAPI
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Consider the API reference as the unique source of truth to help developers understand how your API works
+
+</TLDR>
 
 ---
 
@@ -25,7 +31,9 @@ what cache headers they could expect to find, and even point out things like pag
 Many of these topics would also make for a good tutorial too,
 to introduce the concepts and explain any gotchas or non-standard bits.
 
-[Improve content, add more examples]
+:::note To do
+Improve content, add more examples
+:::
 
 
 

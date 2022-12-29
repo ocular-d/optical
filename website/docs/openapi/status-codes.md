@@ -8,7 +8,13 @@ tags:
   - style-guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Learn why it's important to be consistent and adhere to standards with HTTP status response codes.
+
+</TLDR>
 
 ---
 

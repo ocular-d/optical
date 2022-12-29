@@ -8,7 +8,13 @@ tags:
   - style-guide
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Learn what summaries are, how to design them, and why they're important for your users.
+
+</TLDR>
 
 ---
 

@@ -5,7 +5,15 @@ title: Accessibility A11Y
 description: Improve the accessibility
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Improve the accessibility.
+
+</TLDR>
+
+---
 
 :::tip Background Info
 Improve the accessibility as documented by the [A11Y](https://a11yproject.com) project.

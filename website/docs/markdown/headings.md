@@ -5,7 +5,13 @@ title: Headings
 description: Always use short and understandable headings
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Always use short and understandable headings.
+
+</TLDR>
 
 ---
 

@@ -5,7 +5,13 @@ title: Spaces
 description: Guide about empty spaces
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Guide about empty spaces.
+
+</TLDR>
 
 ---
 

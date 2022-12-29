@@ -5,7 +5,13 @@ title: Code
 description: Guide for code and code blocks
 ---
 
+import TLDR from "@site/src/components/TLDR";
+
+<TLDR>
+
 Guide for code and code blocks.
+
+</TLDR>
 
 ---
 
