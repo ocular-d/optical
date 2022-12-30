@@ -124,11 +124,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Style Guides',
             items: [
               {
-                label: 'Style Guide',
-                to: '/docs/style-guide',
+                label: 'Markdown',
+                to: '/markdown/',
+              },
+              {
+                label: 'Editorial',
+                to: '/editorial/',
+              },
+              {
+                label: 'OpenAPI',
+                to: '/openapi/',
               },
             ],
           },
