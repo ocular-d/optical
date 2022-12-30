@@ -147,14 +147,6 @@ const config = {
                 label: 'Awesome Docs',
                 href: 'https://testthedocs.github.io/awesome-docs/',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
             ],
           },
           {
